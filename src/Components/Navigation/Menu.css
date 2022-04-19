@@ -1,0 +1,39 @@
+.nav__logo{
+    font-family: sans-serif;
+    padding : 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #131722;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #2a2e39;
+  }
+  
+  li {
+    float: left;
+    height:100%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #007bff;
+  }
+
+  hr.new1 {
+    border-top: 1px solid red;
+  }
+  

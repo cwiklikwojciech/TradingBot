@@ -1,3 +1,8 @@
 .App {
   text-align: center;
+  background-color: #131722;
+  height: 100vh;
+}
+.font-link {
+  font-family: 'Quicksand', sans-serif;
 }

@@ -1,9 +1,12 @@
 import './App.css';
+import Menu from './Components/Navigation/Menu'
 
 function App() {
   return (
     <div className="App">
-      Hello World! Branch Navigation
+      <div className="font-link">
+        <Menu />
+      </div>
     </div>
   );
 }
