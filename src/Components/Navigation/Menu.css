@@ -1,6 +1,6 @@
 .nav__logo{
     font-family: sans-serif;
-    padding : 10px 10px;
+    padding : 10px 0px 10px 0px;
 }
 
 ul {
@@ -25,7 +25,7 @@ ul {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 22px 20px;
+    padding: 24px 20px;
     text-decoration: none;
   }
   
