@@ -1,8 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
-  background-color: #131722;
   height: 100vh;
 }
 .font-link {
   font-family: 'Quicksand', sans-serif;
+}
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+ul {
+  position: relative;
+}
+main{
+  position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
