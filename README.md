@@ -1,11 +1,11 @@
-## 🚀 Technology Stack
-####Frontend 
-*ReactJS
-*TypeScript
-*TailwindCSS
-*HTML5
-####Backend
-*Node 
+# 🚀 Technology Stack
+## Frontend 
+* ReactJS
+* TypeScript
+* TailwindCSS
+* HTML5
+## Backend
+* Node 
 
 
 ## How it works ?
