@@ -9,7 +9,7 @@ import About from './Components/About/About'
 function App() {
   return (
     <>
-    <div className="bg-slate-800 h-screen">
+    <div className="bg-slate-900 h-screen">
       <main>
         <Menu/>
           <Routes>
