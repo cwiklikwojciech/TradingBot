@@ -2,10 +2,8 @@
   display: flex;
   min-height: 56px;
   align-items: center;
-  background-color: #131722;
   list-style-type: none;
   overflow: hidden;
-  border-bottom: 1px solid #2a2e39;
 }
 .left, .middle, .right {
   flex: 1;
@@ -16,6 +14,7 @@
 
 .right {
   text-align: right;
+
 }
 .left {
   
@@ -26,11 +25,17 @@
 }
 
 .item {
-  font-size: 20px;
-  padding: 16px;
+  font-family: 'Overpass', sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  line-height: 1.5;
+  padding: 16px;
+  font-weight: 600;
   color: #ffffff;
+  padding: 22px 25px;
+  text-decoration: none;
+
+}
+.item-mobile li{
   padding: 22px 25px;
   text-decoration: none;
 }
@@ -47,13 +52,16 @@ button{
   outline: inherit;
 }
 .material-symbols-outlined{
-  color:grey;
-  float: right;
-  padding: 20px 40px;
+  color:#ffffff;
+  
+}
+.material-symbols-outlined:hover{
+  color: #007bff;
 }
 .hamburger{
   display: none;
 }
+
 @media only screen and (max-width: 800px) {
   .item {
     display: none;
@@ -63,6 +71,9 @@ button{
   }
   .hamburger{
     display: block;
+  }
+  .notification, .account{
+    display: none;
   }
 }
   
